@@ -1,4 +1,6 @@
 import os
+os.environ["PORT"] = os.environ.get("PORT", "8501")  # 👈 Ensures Streamlit uses the correct port
+
 import streamlit as st
 from dotenv import load_dotenv  # ✅ Load env variables
 
