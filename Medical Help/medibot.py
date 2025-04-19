@@ -2,7 +2,8 @@ import os
 import streamlit as st
 from dotenv import load_dotenv  # ✅ Load env variables
 
-from langchain_huggingface import HuggingFaceEmbeddings  # ✅ Updated import
+from langchain_community.embeddings import HuggingFaceEmbeddings
+  # ✅ Updated import
 from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import PromptTemplate
