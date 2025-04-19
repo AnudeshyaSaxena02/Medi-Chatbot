@@ -6,3 +6,4 @@ torch==2.2.1
 transformers==4.40.0
 PyPDF2==3.0.1
 python-dotenv==1.0.1
+langchain-community
