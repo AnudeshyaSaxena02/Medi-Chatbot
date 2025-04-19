@@ -1,0 +1,8 @@
+streamlit
+langchain
+faiss-cpu
+huggingface_hub
+torch
+transformers
+PyPDF2
+python-dotenv
